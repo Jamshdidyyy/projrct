@@ -1,0 +1,235 @@
+body{
+text-align: center;
+background-color: #ddd;
+font: 100% Georgia, "Times New Roman", Times, serif;
+width: 100%;
+}
+.wrapper{
+ width: 90%;
+ text-align: left;
+ padding: 0px 50px;
+ background: #fff url(_images/cycle_back.gif) no-repeat top right;
+ margin: 0;
+ position: relative;
+}
+.MainHeader{
+  
+    background: url(_images/logo.gif)  no-repeat 25px 0;
+    padding: 75px 0 0 245px;
+    border-bottom: 2px solid #7f7f7f ;
+    margin-bottom: 1em;
+
+}
+header.MainHeader{
+  height: 185px;
+}
+.MainHeader h1 span{
+
+position: absolute;
+left: -2000em;
+
+}
+nav ul{
+    list-style: none;
+}
+.MainHeader hgroup h1{
+   
+      font-size: 6em;
+      color: #7f7f7f;
+      font-weight: normal;
+      margin-top: 0em;
+     
+}
+.MainHeader hgroup h2{
+font-weight: normal;
+font-size: 2em;
+margin-top: -70px;
+
+}
+.MainHeader nav{
+  position: absolute;
+  left: 250px;
+  top: 0;
+  padding-top: 15px;
+
+}
+.MainHeader ul li{
+float: left;
+
+}
+.MainHeader ul li a{
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 1.2em;
+ color: black;
+ text-decoration: none;
+ padding: 0 20px;
+ border-right: 1px solid black;
+}
+.MainHeader ul li a.Last{
+border: none;
+}
+.MainHeader ul li a:hover{
+color: #cb7d20;
+}
+
+section#TrailInfo{
+  float: left;
+  width: 600px;
+  padding: 0 10px 0 25px;
+  margin-bottom: 2em;
+}
+section#TrailInfo{
+
+  border-right: 1px solid #7f7f7f;
+}
+section#TrailInfo header p{
+
+  font-size: .9em;
+  color: #cb7d20;
+}
+section#TrailInfo header a{
+
+  color: #cb7d20;
+}
+section#TrailInfo header a:hover{
+  
+  color: #952;
+}
+section#TrailInfo header h1{
+  font-weight: normal;
+  font-size: 1.3em;
+  margin-top: 1em;
+}
+section#TrailInfo article h1{
+  font-weight: normal;
+  
+}
+section#TrailInfo caption{
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.4em;
+  text-align: left;
+}
+section#TrailInfo caption span{
+  font-style: italic;
+  position: relative;
+  font-size: .6em;
+  text-align: right;
+  text-transform: lowercase;
+  right: 0;
+  top: -1.4em;
+  display: block;
+}
+section#TrailInfo table#quickFacts{
+  width: 450px;
+  background: #c3cebc;
+  border: none;
+  margin: .5em 0 1em;
+}
+section#TrailInfo table#quickFacts th{
+  width: 100px;
+}
+section#TrailInfo table#quickFacts th,section#TrailInfo table#quickFacts td {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: .8em;
+  padding-left: 1em;
+  text-align: left;
+  line-height: 3;
+}
+section#TrailInfo table#quickFacts tr.alt{
+
+  background:#e1d8b9;
+}
+section#TrailInfo p{
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 1em;
+}
+section#TrailInfo a{
+  text-decoration: none;
+}
+section#TrailInfo h2{
+font-size: 1em;
+margin-top: 1.2em;
+margin-bottom: 0;
+color: #000;
+}
+section#TrailInfo img{
+  display: block;
+}
+aside#trailNews{
+  float: left;
+  width: 450px;
+  margin-bottom: 2em;
+  font-size: 90%;
+  margin-left: 20px;
+}
+aside#trailNews h1{
+  font-weight: normal;
+  color: #7f7f7f;
+  margin-bottom: .5em;
+  border-bottom: 1px solid #7f7f7f;
+  font-size: 3em;
+}
+aside#trailNews video{
+  margin: .5em 0 1em;
+}
+aside#trailNews .news{
+  background: #e1d8b9;
+  padding: 1em 1em;
+  margin-bottom: 1.5em;
+}
+aside#trailNews .news h1{
+  font-size: 2.5em;
+  border: none;
+}
+aside#trailNews .news h2{
+  font-size: 1.2em;
+  margin-bottom: .2em;
+}
+aside#trailNews .news p{
+  line-height: 1.8;
+  color: #333;
+  margin-bottom: 1em;
+}
+label{
+  display: block;
+  margin: 1em 0 0;
+}
+input:focus{
+  border: 1px solid #952;
+}
+input[type="number"]{
+  width: 3em;
+
+}
+input[type="text"], input[type="url"], input[type="email"]{
+ width: 350px;
+ height: 20px;
+}
+textarea{
+  width: 350px;
+  height: 250px;
+  display: block;
+  margin-bottom: 1em;
+}
+footer#pageFooter{
+  clear: both;
+}
+footer#pageFooter{
+  border-top: 2px solid #7f7f7f;
+  padding: 2em;
+}
+footer#pageFooter p{
+  text-align: center;
+  font-style: italic;
+  margin-bottom: 1em;
+  color: #666;
+}
+footer#pageFooter a{
+  text-decoration: none;
+  color: #cb7d20;
+}
+footer#pageFooter a:hover{
+  color: #952;
+}
